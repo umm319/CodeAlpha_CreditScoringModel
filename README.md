@@ -1,43 +1,79 @@
 # CodeAlpha - Credit Scoring Model
 
-## Project Overview
-This project predicts whether a customer is a good or bad credit risk using Machine Learning.
+## 📌 Project Overview
+This project builds a Machine Learning model to predict whether a customer is a **good** or **bad** credit risk using the **South German Credit Dataset**. The model helps evaluate customer creditworthiness based on financial and personal attributes.
 
-## Dataset
-South German Credit Dataset
+---
 
-## Algorithm Used
+## 📂 Dataset
+- **Dataset:** South German Credit Dataset
+- **Records:** 1000
+- **Features:** 20
+- **Target Variable:** `kredit`
+
+---
+
+## 🤖 Machine Learning Algorithm
 - Random Forest Classifier
 
-## Libraries
+---
+
+## 🛠 Technologies & Libraries
+- Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
 - Joblib
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```
 CodeAlpha_CreditScoringModel/
 │── data/
+│   └── SouthGermanCredit.asc
+│
 │── notebooks/
+│   └── Credit_Scoring_Model.ipynb
+│
 │── models/
+│   └── credit_scoring_model.pkl
+│
 │── images/
-│── credit_scoring_model.pkl
-│── README.md
+│   ├── confusion_matrix.png
+│   └── feature_importance.png
+│
+└── README.md
 ```
 
-## Steps Performed
-- Data Loading
-- Data Exploration
-- Data Preprocessing
-- Train-Test Split
-- Model Training
-- Prediction
-- Model Evaluation
-- Confusion Matrix
-- Feature Importance
+---
 
-## Result
-The Random Forest Classifier was trained and evaluated successfully on the South German Credit Dataset.
+## 📊 Project Workflow
+1. Data Loading
+2. Data Exploration (EDA)
+3. Data Preprocessing
+4. Train-Test Split
+5. Model Training (Random Forest)
+6. Prediction
+7. Model Evaluation
+8. Confusion Matrix
+9. Feature Importance
+10. Save Trained Model
+
+---
+
+## 📈 Results
+- Successfully trained a Random Forest Classifier.
+- Evaluated model performance using Accuracy Score.
+- Generated a Classification Report.
+- Visualized the Confusion Matrix.
+- Identified Feature Importance.
+
+---
+
+## 👩‍💻 Author
+**Umme Kalsoom**  
+BS Mathematics with Data Science  
+COMSATS University Islamabad, Sahiwal Campus
